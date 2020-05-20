@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@RequestMapping("api/v1/cirurgia")
+@RequestMapping("api/v1/cavalaria")
 @OpenAPIDefinition()
 public interface CavalariaApi {
     @GetMapping
